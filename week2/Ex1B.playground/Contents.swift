@@ -1,3 +1,5 @@
 import UIKit
 
-var greeting = "Hello, playground"
+let spdOfLight: Double = 12.5
+print(spdOfLight)
+spdOfLight = 20.23
