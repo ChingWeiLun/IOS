@@ -1,3 +1,5 @@
 import UIKit
 
-var greeting = "Hello, playground"
+let shippingAddress:String? = "kajang"
+let result = shippingAddress != nil ? "Shipping to: \(shippingAddress!)" : "No shipping address"
+print(result)
