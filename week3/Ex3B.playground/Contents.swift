@@ -1,3 +1,5 @@
 import UIKit
 
-var greeting = "Hello, playground"
+let username:String? = nil
+let result = username ?? "Anonymous"
+print(result)
