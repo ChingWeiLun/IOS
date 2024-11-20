@@ -1,3 +1,6 @@
 import UIKit
 
-var greeting = "Hello, playground"
+let userStatus:Bool = true
+
+let result = userStatus ? "User is Online" : "User is Offline"
+print(result)
