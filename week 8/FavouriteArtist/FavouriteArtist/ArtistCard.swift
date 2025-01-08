@@ -30,6 +30,7 @@ struct ArtistCard: View {
                         .aspectRatio(contentMode: .fit)
                         .padding(.trailing, 30)
                     Text("Button")
+                        .foregroundColor(Color("darkmode"))
                         .padding(.top, 120)
                         .padding(.trailing)
                         
