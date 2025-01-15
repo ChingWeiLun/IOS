@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct Artist_Sheet: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+    var color: String = "red"
+        var name: String = ""
+        var artist: String = "joji"
+        
+        var body: some View {
+            ZStack{
+                Color(color)
+
+                VStack{
+                    HStack{
+                        Image(artist)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .padding(.leading, 30)
+                    }
+                }
+            }.cornerRadius(15)
+                .frame(height: 150)
+                .padding()
+        }
 }
 
 #Preview {
